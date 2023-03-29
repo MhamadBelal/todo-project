@@ -1,0 +1,117 @@
+* {
+    font-family: 'Alkatra', cursive;
+}
+
+body {
+    background-color: rgb(2, 104, 48);
+    display: flex;
+    flex-direction: column;
+}
+
+
+header {
+    background-color: rgb(9, 224, 27);
+    position: fixed;
+    width: 100%;
+}
+
+
+nav {
+    float: right;
+}
+
+
+header section img {
+    width: 100px;
+    height: 100px;
+    margin: 0px 0 0px 100px;
+    float: left;
+}
+
+header section h1 {
+    text-align: center;
+    margin-top: 20px;
+    font-size: 30px;
+}
+
+nav ul li {
+    background-color: bisque;
+    display: inline-block;
+    padding: 10px 10px;
+    text-decoration: none;
+    font-family: 'Righteous', cursive;
+    margin-right: 30px;
+}
+
+a {
+    text-decoration: none;
+}
+
+section#form {
+    margin-top: 120px;
+    margin-right: 20px;
+    margin-bottom: 20px;
+    float: right;
+}
+
+input {
+    padding: 20px;
+}
+
+table,th,td {
+    border: 1px solid;
+    margin-top: 60px;
+    width: 1300px;
+    padding: 30px;
+    margin: 20px;
+}
+
+tr {
+    height: 25%;
+    font-size: 80px;
+}
+
+td {
+    height: 75%;
+    font-size: 40px;
+    text-align: center;
+}
+
+.task {
+    background-color: red;
+    margin: 10px;
+}
+
+.status {
+    background-color: bisque;
+}
+
+footer {
+    margin-top: auto;
+    background-color: rgb(8, 208, 235);
+    font-family: 'Righteous', cursive;
+  
+}
+
+#copy-rights {
+
+    background-color: yellow;
+    margin-top: 15px;
+    float: left;
+}
+
+
+footer p {
+    text-align: center;
+    margin-top: 15px;
+    font-size: 30px;
+}
+
+#social-media {
+
+    color: blanchedalmond;
+    float: right;
+    margin-right: 20px;
+    margin-bottom: 25px;
+}
+
