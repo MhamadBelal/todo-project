@@ -6,13 +6,18 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <script src="https://kit.fontawesome.com/2844f80f7d.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="./CSS/reset.css">
+    <link rel="stylesheet" href="./CSS/index.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Alkatra:wght@600;700&display=swap" rel="stylesheet">
     <title>ToDo</title>
 </head>
 
 <body>
     <header>
         <section>
-            <img
+            <img alt="Logo"
                 src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTcy7ZlcygH1P9eV_VeSuHFFCZSOuOjL-lxIxVuPs3GeQ&s">
         </section>
         <section>
@@ -29,7 +34,7 @@
 
     <main>
 
-        <section>
+        <section id="form">
             <form>
                 <input type="submit" value="Choose Date">
                 <input type="date">
@@ -37,38 +42,38 @@
         </section>
         <br>
 
-        <section>
+        <section id="table">
             <table border="1">
                 <tr>
                     <th>Tasks</th>
                     <th>Status</th>
                 </tr>
                 <tr>
-                    <th>Solving Tasks</th>
-                    <th>Active</th>
+                    <td class="task">Solving Tasks</td>
+                    <td class="status">Active</td>
                 </tr>
                 <tr>
-                    <th>Watching Lectures</th>
-                    <th>Done</th>
+                    <td class="task">Watching Lectures</td>
+                    <td class="status">Done</td>
                 </tr>
                 <tr>
-                    <th>Washing the Car</th>
-                    <th>Not Done</th>
+                    <td class="task">Washing the Car</td>
+                    <td class="status">Not Done</td>
                 </tr>
                 <tr>
-                    <th>Washing the Car</th>
-                    <th>Done</th>
+                    <td class="task">Playing</td>
+                    <td class="status">Done</td>
                 </tr>
             </table>
         </section>
     </main>
 
     <footer>
-        <section>
+        <section id="copy-rights">
             <p>&copy; Copy are save to Belal</p>
         </section>
-        <section>
-            <p>Contact Us: </p>
+        <p>Contact Us: </p>
+        <section id="social-media">
             <i class="fa-solid fa-phone"></i> 09791420372
             <br>
             <i class="fa-brands fa-facebook"></i> <a
