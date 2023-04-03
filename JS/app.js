@@ -3,7 +3,11 @@ let name1 = prompt("Enter your Name");
 
 let gender = prompt("enter your gender: male/female");
 
-if (gender != "male" || gender != "female") {
+if (gender == "male" || gender == "female") {
+    
+}
+else
+{
     gender= prompt("enter your gender: male/female");
 }
 let age = prompt("enter you age")
