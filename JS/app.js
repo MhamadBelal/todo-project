@@ -12,7 +12,7 @@ else
 }
 let age = prompt("enter you age")
 if (age <= 0)
-    alert("age is less than or equal to zero");
+    age = prompt("age is less than or equal to zero");
 
 let ms = confirm("whould you like to see the welcoming message?")
 if (ms) {
