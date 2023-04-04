@@ -1,17 +1,15 @@
 let name1 = prompt("Enter your Name");
 
-
 let gender = prompt("enter your gender: male/female");
 
 if (gender == "male" || gender == "female") {
 
-}
-else {
+else
     gender = prompt("enter your gender: male/female");
-}
+
 let age = prompt("enter you age")
 if (age <= 0)
-    age = prompt("age is less than or equal to zero, please enter you age agian");
+
 
 let ms = confirm("whould you like to see the welcoming message?")
 if (ms) {
