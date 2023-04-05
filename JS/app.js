@@ -1,3 +1,5 @@
+'use strict';
+
 let name1 = prompt("Enter your Name");
 
 let gender = prompt("enter your gender: male/female");
@@ -21,3 +23,23 @@ if (ms) {
     else
         alert("welcome to our page");
 }
+
+
+let arr=new Array();
+
+let qestion1=prompt("Are you single?, answer: no/yes");
+if(qestion1=="")
+qestion1="invalid";
+arr.push(qestion1);
+let qestion2=prompt("Are you student, answer: no/yes");
+if(qestion2=="")
+qestion2="invalid";
+arr.push(qestion2);
+let qestion3=prompt("Are you happy, answer: no/yes");
+if(qestion3=="")
+qestion3="invalid";
+arr.push(qestion3);
+
+for(let i=0;i<arr.length;i++)
+    console.log(arr[i]);
+
