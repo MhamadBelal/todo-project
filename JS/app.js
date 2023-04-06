@@ -30,7 +30,7 @@ let questionOne=prompt("Are you single?, answer: no/yes");
 let questionTwo=prompt("Are you student, answer: no/yes");
 let questionThree=prompt("Are you happy, answer: no/yes");
 
-
+//function to fill the aray
 function answerArray(data)
 {
     if(data=="")
@@ -39,6 +39,7 @@ function answerArray(data)
         arr.push(data);
 }
 
+//function to print the array
 function printArray(arrayInput)
 {
     for(let i=0;i<arrayInput.length;i++)
