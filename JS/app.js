@@ -1,6 +1,6 @@
 'use strict';
 
-/*let name1 = prompt("Enter your Name");
+let name1 = prompt("Enter your Name");
 
 let gender = prompt("enter your gender: male/female");
 
@@ -23,7 +23,7 @@ if (ms) {
     else
         alert("welcome to our page");
 }
-*/
+
 
 let arr=new Array();
 let questionOne=prompt("Are you single?, answer: no/yes");
